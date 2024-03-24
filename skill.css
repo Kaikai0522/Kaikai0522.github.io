@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.skill-section {
+    font-family: 'Poppins', sans-serif;
+    max-width: 75vw;
+    margin: 0 auto;
+    padding: 3.75vw 1.25vw;
+}
+
+.skill-section .logo-and-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.3vw;
+}
+
+.skill-section .logo-and-title img {
+    margin-right: 0.625vw;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18.75vw, 1fr));
+    grid-gap: 2.5vw;
+}
+
+.skill-card {
+    background-color: #fff;
+    border-radius: 0.625vw;
+    padding: 1.875vw;
+    box-shadow: 0 0.25vw 0.5vw rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-0.3125vw);
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h2 {
+    font-size: 1.5vw;
+    color: #2c6c9a;
+    margin-bottom: 0.9375vw;
+}
+
+.skill-card p {
+    font-size: 1vw;
+    color: #666;
+    line-height: 1.6;
+}
+
+a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1976D2;
+}

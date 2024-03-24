@@ -1,0 +1,51 @@
+.cv-container {
+    background-color: #fff;
+    border-radius: 0.625vw;
+    max-width: 50vw;
+    margin-top: 6.25vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 1.875vw;
+}
+
+.cv-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 1.25vw;
+    color: #4CAF50;
+}
+
+.cv-section {
+    margin-bottom: 1.875vw;
+}
+
+.cv-section h2 {
+    font-size: 1.8em;
+    color: #FF5722;
+    margin-bottom: 0.625vw;
+}
+
+.cv-section p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.cv-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cv-section ul li {
+    margin-bottom: 0.625vw;
+    color: #009688;
+}
+
+a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1976D2;
+}

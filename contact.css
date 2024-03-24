@@ -1,0 +1,71 @@
+.contact-container {
+    text-align: center;
+    border-radius: 0.625vw;
+    max-width: 50vw;
+    margin-top: 6.25vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 1.25vw;
+    background-color: #fff;
+    color: #333;
+}
+
+.contact-container .logo-and-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-container .logo-and-title img {
+    margin-right: 0.625vw;
+}
+
+.contact-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 1.25vw;
+}
+
+.contact-container p {
+    margin-bottom: 1.25vw;
+}
+
+/* submit button is from https://uiverse.io/vinodjangid07/neat-seahorse-99 */
+.submitBtn {
+    margin: auto;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to left, rgb(230, 35, 0), rgb(255, 174, 0));
+    letter-spacing: 0.7px;
+}
+
+.submitBtn:hover .arrow {
+    animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-10px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.submitBtn:active {
+    transform: scale(0.97);
+}

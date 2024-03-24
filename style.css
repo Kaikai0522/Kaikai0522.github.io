@@ -1,0 +1,96 @@
+body {
+    font-family: "Comfortaa", sans-serif;
+    background: linear-gradient(to right, #4361ee, #9b59b6, #f64f59, #c471ed, #12c2e9);
+    color: white;
+}
+
+.header {
+    margin-bottom: 3.125vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: none;
+    background: white;
+    color: #333;
+}
+
+
+.page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page a {
+    font-weight: bold;
+    margin: 0 0.625vw;
+    color: #333;
+    text-decoration: none;
+    right: 3.125vw;
+    position: relative;
+    transition: width 1s ease-in-out;
+}
+
+.intro-container {
+    text-align: center;
+    max-width: 50vw;
+    /*Avoid being overridden by the top header */
+    margin-top: 6.25vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 1.875vw;
+    background-color: #f5f5f5;
+    border-radius: 0.5vw;
+    box-shadow: 0 0.125vw 0.25vw rgba(0, 0, 0, 0.1);
+}
+
+.intro-container h1 {
+    font-size: 2vw;
+    color: #333;
+    margin-bottom: 1.25vw;
+}
+
+.intro-container h2 {
+    font-size: 1.5vw;
+    color: #555;
+    margin-top: 1.875vw;
+    margin-bottom: 0.625vw;
+}
+
+.intro-container p {
+    font-size: 1vw;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1.25vw;
+}
+
+.intro-container ul {
+    margin-left: 1.875vw;
+    margin-bottom: 1.875vw;
+}
+
+.intro-container li {
+    font-size: 1vw;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0.625vw;
+}
+
+/*Links change color when you mouse over them*/
+a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1976D2;
+}
